@@ -1,5 +1,5 @@
 use foodapp_db;
-drop database if exists orders;
+drop table if exists orders;
 create table orders (
 orders_id int auto_increment primary key,
 restaurants_id int not null,
